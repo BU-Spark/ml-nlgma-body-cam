@@ -1,6 +1,6 @@
 # Project Document Template
 
-## _Authors: Sai Krishna Sashank Madipally, Aakash Bhatnagar and Krishna Adithya Venkatesh,  2023-10-04, v1.0.0-dev_
+## _Authors: Sai Krishna Sashank Madipally, Aakash Bhatnagar and Krishna Adithya Venkatesh,  2023-10-15, v1.0.1-dev_
 
 
 ## Summary/Overview
@@ -50,15 +50,25 @@ The Law Offices of Howard Friedman requires an efficient and accurate method usi
 
 ### C. Solution in Terms of Human Actions:
 
+1. Listen to the recordings to identify instances where foul language or bad phrases were used by BPD and note the timestamp.
+2. Listen to the recordings to identify instances where BPD criticizes the lack of a plan and fail to offer protestors directions and note the timestamps.
+3. Listen to the recordings and verify the performance of the model after it makes predictions for fine-tuning the model(s).
+4. Perform EDA on the dataset to find any insights into the videos that might be useful while training.
+
+### D. Solution in Terms of Machine Learning Tasks:
+
 1. Train a Speech Recognition model to transcribe the audio from all the bodycam videos.
 2. Preprocess the text retrieved in Step 1.
 3. Train an NLP model on this preprocessed data to recognize the three actions.
 4. Recognize and timestamp the actions using the NLP model.
 5. Extract these moments in the videos using the timestamps from Step 4.
 
-### D. Path to Operationalization:
+### E. Path to Operationalization:
 
-The automated analysis system produced by this project can be integrated into the Law Offices of Howard Friedman's case preparation workflow. It can be accessed through a user-friendly interface, allowing legal teams to upload body camera footage for analysis. The system can generate detailed reports with identified actions/events, along with timestamps for reference. The technology stack may include Python for backend processing. The end user, in this case, would be legal professionals, who can utilize this tool to enhance their case preparation process.
+The automated analysis system produced by this project can be accessed through a user-friendly interface, allowing legal teams to upload body camera footage for analysis. The system can generate detailed reports with identified actions/events, along with timestamps for reference. The technology stack may include Python for backend processing. The end user, in this case, would be legal professionals, who can utilize this tool to enhance their case preparation process.
+
+The code and analysis of the data can be accessed at this [repo](https://github.com/k-sashank/ml-nlgma-body-cam) and the data (bodycam videos) can be accessed [here](https://drive.google.com/drive/u/1/folders/1eMsS2tl9cgiBJ25kAfu4jjsFu1nvtnS0).
+
 
 
 ## Resources
