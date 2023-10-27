@@ -40,7 +40,7 @@ If successfully completed, this project would have significant positive outcomes
 
 ### A. Problem Statement:
 
-The Law Offices of Howard Friedman requires an efficient and accurate method using AI for analyzing body camera footage involving police brutality, aggressive comments, and lack of planning. The current manual review process is time-consuming and labor-intensive, leading to inefficiencies in case preparation.
+Our client requires an efficient and accurate method using AI for analyzing body camera footage involving police brutality, aggressive comments, and lack of planning. The current manual review process is time-consuming and labor-intensive, leading to inefficiencies in case preparation.
 
 ### B. Checklist for Project Completion:
 
