@@ -1,0 +1,10 @@
+opencv-python
+ultralytics
+torch
+transformers
+Cython
+wget
+accelerate
+openai
+openai-whisper
+gradio
