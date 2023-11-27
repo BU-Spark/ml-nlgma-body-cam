@@ -12,3 +12,8 @@ Checklist:
 - Train/Implement ASR model(s) to extract a transcript of the audio in all videos
 - Train/Implement NLP model(s) on the extracted text.
 - Identify and timestamp specific events (e.g., lack of planning, aggressive comments, and failure to provide directions to protestors) from the videos.
+
+Deployment colab:
+<a target="_blank" href="https://colab.research.google.com/github/k-sashank/ml-nlgma-body-cam/blob/main/deployment/Spark_Deployment.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
