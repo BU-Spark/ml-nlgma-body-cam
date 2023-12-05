@@ -1,0 +1,12 @@
+train: train/images
+val: val/images
+
+nc: 3
+names: ['cop', 'police baton', 'protestor']
+
+roboflow:
+  workspace: sashank-madipally
+  project: boston-protests
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/sashank-madipally/boston-protests/2
