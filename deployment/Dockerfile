@@ -17,4 +17,4 @@ COPY . .
 RUN pip install -r requirements.txt
 RUN apt-get update && apt-get install libglu1
 
-CMD ["python", "app.py"]
+CMD ["python", "app.py"]
