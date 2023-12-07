@@ -1,6 +1,6 @@
 ## BPD BodyCam Timestamps
 
-The Law Offices of Howard Friedman specializes in civil lawsuits representing victims of police brutality, false arrest, wrongful death, and civil rights violations. A critical aspect of these cases involves analyzing body camera footage, which can vary greatly in length from minutes to hours. The current manual review process is time-consuming and labor-intensive. The aim of this project is to use AI to find moments where:
+Legal cases arise in which police body camera footage may be a source of important evidence. A critical aspect of these cases involves analyzing body camera footage, which can vary greatly in length from minutes to hours. The current manual review process is time-consuming and labor-intensive. The aim of this project is to use AI to find moments where:
 
 1. Officers complain about the lack of a plan
 2. Officers fail to offer people with directions
