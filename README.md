@@ -25,4 +25,7 @@ aakash0017/ml-nlgma-body-cam/
 Instructions on running the application from a docker image can be found here:
 https://docs.docker.com/engine/reference/commandline/run/
 
+The pre-trained weights for the YOLOv8 model can be found and downloaded here:
+https://drive.google.com/file/d/1IlKpRO27gYErr4NZvhfuTwyliRgKvc8m/view?usp=sharing
+
 The final project presentation has also been added to the repo. This will give the required background to understand the project and the repo.
