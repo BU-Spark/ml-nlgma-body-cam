@@ -5,17 +5,24 @@ The Law Offices of Howard Friedman specializes in civil lawsuits representing vi
 1. Officers complain about the lack of a plan
 2. Officers fail to offer people with directions
 3. Officers direct aggressive comments at protestors
+4. Officers using batons forcefully towards the protestors
 
 The project aims to develop an automated system for the analysis of body camera footage. This system will utilize advanced Automatic Speech Recognition (ASR) and Natural Language Processing (NLP) techniques to identify and extract specific actions and events from the videos. These ASR and NLP models could be programmed to recognize instances of aggressive comments and lack of a plan. Additionally, the system could generate searchable metadata associated with each video clip.
-
-Checklist:
-- Train/Implement ASR model(s) to extract a transcript of the audio in all videos
-- Train/Implement NLP model(s) on the extracted text.
-- Identify and timestamp specific events (e.g., lack of planning, aggressive comments, and failure to provide directions to protestors) from the videos.
-
-Link to Deployed Application: 
 
 Deployment colab:
 <a target="_blank" href="https://colab.research.google.com/github/k-sashank/ml-nlgma-body-cam/blob/main/deployment/Spark_Deployment_Final.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+The final application works as follows:
+1. The application needs three entities i.e. the YOLOv8 pre-trained weights, the video file to be analyzed, and the OpenAI key.
+2. Once these three entities are supplied, the application runs the three models i.e. Whisper followed by GPT-4 and YOLOv8.
+3. After processing, the application displays the timestamps of the dialogues (pertaining to the first three incidents) as well as the timestamps of the batons.
+
+The Docker Image for this project is publicly available at:
+aakash0017/ml-nlgma-body-cam/
+
+Instructions on running the application from a docker image can be found here:
+https://docs.docker.com/engine/reference/commandline/run/
+
+The final project presentation has also been added to the repo. This will give the required background to understand the project and the repo.
