@@ -29,6 +29,6 @@ The pre-trained weights for the YOLOv8 model can be found and downloaded here:
 https://drive.google.com/file/d/1IlKpRO27gYErr4NZvhfuTwyliRgKvc8m/view?usp=sharing
 
 Gradio Deployment:
-https://huggingface.co/spaces/spark-ds549/bodycam-deployment
+[https://huggingface.co/spaces/spark-ds549/bodycam-deployment](https://huggingface.co/spaces/spark-ds549/bodycam-deployment/)
 
 The final project presentation has also been added to the repo. This will give the required background to understand the project and the repo.
